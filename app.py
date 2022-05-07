@@ -28,6 +28,30 @@ calcular la carga.
 st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley de Gauss:""") 
 st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_{neta}}{\epsilon_0} ''')
 
+st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctrico;""") 
+st. write ("""Imaginemos una superficie plana como
+esta que estoy colocando acá esta superficie tiene un área superficial ese
+e imaginemos que esta superficie es atravesada por líneas de campo eléctrico
+en este ejemplo en particular imaginemos que ese campo eléctrico es uniforme el
+flujo eléctrico sería la multiplicación de la magnitud de ese campo eléctrico que está atravesando esta superficie por
+el área superficial por el coseno de tita en donde tita es el ángulo que formarían ese vector campo eléctrico y
+2:08
+el vector normal a la superficie este
+2:11
+vector n es un vector que es normal a la
+2:13
+superficie y forma un ángulo de 90
+2:15
+grados con la superficie esta sería lo
+2:18
+que es la explicación de lo que es el
+2:19
+flujo eléctrico 
+;""") 
+
+
+
+
 st.title('Ley de Gauss para el magnetismo')
 
 st.latex(r'''
