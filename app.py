@@ -3,20 +3,19 @@ st.markdown("<h1 style='text-align: center; color:lightblue;'>Ecuaciones de Maxw
 st.button('click aqui')
 st.balloons()
 st.title('Ley de Gauss')
+st.latex(r'''
+    \overrightarrow{\nabla}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
+ ''')
 st. write (""" Esta describe como las cargas afectan al campo eléctrico En concreto te dice que las cargas eléctricas son fuentes de campo eléctrico si son positivas
 o sumideros de campo eléctrico si son negativas, que no es otra cosa que decir en términos
 “fancy” de campo que cargas del mismo signo repelen y de distinto atraen.
 captura que el campo eléctrico decae con la distancia y lo hace
 de una manera muy precisa: con el cuadrado de la distancia.""")
 
-
-st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
- ''')
 st.title('Ley de Gauss para el magnetismo')
 
 st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{B} = 0 
+    \overrightarrow{\nabla}* \overrightarrow{B} = 0 
  ''')
 st. write (""" Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen.
 No hay “cargas magnéticas”.""")
@@ -33,7 +32,7 @@ En resumen: En nuestro mundo los monopolos son imposibles (si existieran las ecu
 st.title('Ley de Faraday y Lenz')
 
 st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
+    \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
  ''')
 
 st. write ("""Detras de esta ley está el principio básico detrás
@@ -50,6 +49,11 @@ st. write ("""Eso es lo que encapsula la cuarta ecuación: *la Ley de Ampere*
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
 el campo magnético (cerrándose, como tiene que ser).
 """)
+
+st.latex(r'''
+    \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
+ ''')
+
 st. write ("""Basta con hacer pasar una corriente eléctrica por una bobina con la forma apropiada y tienes
 un campo magnético, cuanto más intensa sea la corriente más intenso es el campo magnético.
 Esto es un electroimán y la mayoría de los campos magnéticos del mundo se generan con
