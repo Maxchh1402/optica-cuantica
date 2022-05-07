@@ -33,7 +33,7 @@ En resumen: En nuestro mundo los monopolos son imposibles (si existieran las ecu
 st.title('Ley de Faraday y Lenz')
 
 st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{E} = -\frac{\partial B}{\partial t}   
+    \overrightarrow{V}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
  ''')
 
 st. write ("""Detras de esta ley está el principio básico detrás
