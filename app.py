@@ -33,13 +33,13 @@ st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctr
 
 col1, col2, col3 = st.columns([1,6,1])
 
-    with col1:
+with col1:
         st.write("")
 
-    with col2:
+with col2:
         st.image("![Alt Text](http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif)")
 
-    with col3:
+with col3:
         st.write("")
 
 st. write ("""
