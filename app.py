@@ -16,7 +16,7 @@ de una manera muy precisa: con el cuadrado de la distancia.""")
 st.title('¿Para que sirve?')
 st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
 la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
-st.image(["images.png",      "SUPERFICIE CILIDRICA.png"]) 
+st.image(["images.png","SUPERFICIE CILIDRICA.png"]) 
 
 st. write ("""Se determina la dirección del campo eléctrico a partir de la
 simetría de la distribución de carga (de la forma de la superfie) uniforme en estos cuerpos
@@ -44,6 +44,7 @@ superficie y forma un ángulo de 90
 grados con la superficie). Esto cuando 
 es uniforme y la superficie es plana.""") 
 
+st.image(["Imagen4.png","Imagen5.png"])
 
 
 
