@@ -32,14 +32,14 @@ st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctr
 col1, col2, col3 = st.beta_columns([1,6,1])
 
 with col1:
-st.write("")
+st. write("")
 
 with col2:
-st.image("http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif")
+st. image("http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif")
 
 with col3:
-st.write("")
-st.image("http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif")
+st. write("")
+st. image("http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif")
 
 st. write ("""Imaginemos una superficie plana como
 esta que estoy colocando acá esta superficie tiene un área superficial ese
