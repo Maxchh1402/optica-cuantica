@@ -16,8 +16,17 @@ st.title('¿Para que sirve?')
 st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
 la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
 st.image(["images.png",      "SUPERFICIE CILIDRICA.png"]) 
-st.image("SUPERFICIE CILIDRICA.png") 
-st. write (""" .""")
+
+st. write ("""Se determina la dirección del campo eléctrico a partir de la
+simetría de la distribución de carga (de la forma de la superfie) uniforme en estos cuerpos
+simétricos y también su magnitud.
+
+De manera alternativa conociendo el campo eléctrico los alrededores de estas distribuciones simétricas se pudiera
+calcular la carga.
+ .""")
+
+st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley de Gauss:""") 
+st.latex(r'''$\oint f$ ''')
 
 st.title('Ley de Gauss para el magnetismo')
 
