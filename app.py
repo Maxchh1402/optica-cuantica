@@ -16,7 +16,7 @@ st.latex(r'''
 st.title('Ley de Gauss para el magnetismo')
 
 st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
+    \overrightarrow{V}* \overrightarrow{B} = 0 
  ''')
 st. write (""" Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen.
 No hay “cargas magnéticas”.""")
