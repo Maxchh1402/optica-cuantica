@@ -11,10 +11,8 @@ de una manera muy precisa: con el cuadrado de la distancia.""")
 
 
 st.latex(r'''
-    \overrightarrow{V}* \overrightarrow{E} \epsilon + \rho + a r^2 + a r^3 + \cdots + a r^{n-1} =
-     \sum_{k=0}^{n-1} ar^k =
-     a \left(\frac{1-r^{n}}{1-r}\right)
-     ''')
+    \overrightarrow{V}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
+ ''')
 st.title('Ley de Gauss para el magnetismo')
 st.title('Ley de Faraday y Lenz')
 
