@@ -47,6 +47,7 @@ es uniforme y la superficie es plana.""")
 st.image(["Imagen4.png","Imagen5.png"])
 
 
+st.image("Imagen7.png")
 
 st.title('Ley de Gauss para el magnetismo')
 
