@@ -46,8 +46,13 @@ es uniforme y la superficie es plana.""")
 
 st.image(["Imagen4.png","Imagen5.png"])
 
+st. write ("""El flujo eléctrico en una superficie general irregular la cual tiene partes curvas es atravesado por infinitas líneas de campo eléctrico, para calcular el flujo eléctrico en este caso tendríamos que dividir la superficie en un gran número de pequeños elementos de área superficial del ts y en este caso el flujo eléctrico sería
+una sumatoria la sumatoria de los productos de las áreas de estos pequeños
+elementos del ts por el campo eléctrico que atraviesa cada uno de esos elementos así el vector que va a tener como módulo el área superficial de ese elemento y ese vector va a ser normal a la superficie va a ser perpendicular y va a
+formar un ángulo con el campo eléctrico.""")
 
 st.image("Imagen7.png")
+
 
 st.title('Ley de Gauss para el magnetismo')
 
