@@ -29,6 +29,7 @@ st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley 
 st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_{neta}}{\epsilon_0} ''')
 
 st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctrico;""") 
+st.image("https://www.google.com/search?q=flujo+electrico&tbm=isch&hl=es&chips=q:flujo+electrico,g_1:ley+de+gauss:Mm-RC6pXmrk%3D&rlz=1C1ONGR_esMX987MX987&sa=X&ved=2ahUKEwj-89qD-M33AhWOGM0KHetXDkkQ4lYoBnoECAEQKw&biw=682&bih=632#imgrc=ONsFDgfT3jflMM&imgdii=JgA4diIue_xGpM") 
 st. write ("""Imaginemos una superficie plana como
 esta que estoy colocando acá esta superficie tiene un área superficial ese
 e imaginemos que esta superficie es atravesada por líneas de campo eléctrico
