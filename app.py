@@ -53,6 +53,15 @@ formar un ángulo con el campo eléctrico.""")
 
 st.image("Imagen7.png")
 
+st.  write( """La ley de Gauss me indica que el flujo
+eléctrico que pasa a través de cada una
+de estas superficies va a ser igual a la
+carga electrica neta que encierran esas
+superficies entre la constante de
+permeabilidad""")
+
+st.image("Imagen9.png")
+
 
 st.title('Ley de Gauss para el magnetismo')
 
