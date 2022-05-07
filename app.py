@@ -51,7 +51,7 @@ el campo magnético (cerrándose, como tiene que ser).
 """)
 
 st.latex(r'''
-    \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
+    \overrightarrow{\nabla}* \overrightarrow{E} = \mu_0 \overrightarrow{J} +\mu_0 \epsilon_0 \frac{\partial \overrightarrow{E}}{\partial t}   
  ''')
 
 st. write ("""Basta con hacer pasar una corriente eléctrica por una bobina con la forma apropiada y tienes
