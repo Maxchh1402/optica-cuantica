@@ -26,7 +26,7 @@ calcular la carga.
  .""")
 
 st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley de Gauss:""") 
-st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_(neta)}{\epsilon_0} ''')
+st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_neta}{\epsilon_0} ''')
 
 st.title('Ley de Gauss para el magnetismo')
 
