@@ -31,6 +31,11 @@ el campo se cierra en la zona que has cortado, devolviendote dos imanes con dos 
 uno.
 En resumen: En nuestro mundo los monopolos son imposibles (si existieran las ecuaciones de Maxweel podrian ser expresadas en una sola ecuación.""")
 st.title('Ley de Faraday y Lenz')
+
+st.latex(r'''
+    \overrightarrow{V}* \overrightarrow{E} = -\frac{\partial B}{\partial t}   
+ ''')
+
 st. write ("""Detras de esta ley está el principio básico detrás
 de casi todas las centrales eléctricas del planeta, pero me repetiré: nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
