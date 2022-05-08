@@ -72,7 +72,7 @@ st.latex(r'''
 st. write(""" Esta ley se asemeja a la ley de gauss para campo eléctrico, sin embargo hay que comprender la región en el espacio donde hay interacción de fuerzas magnéticas, vectorial y no causa ningún efecto sobre cargas en reposo.
 Una fuerza magnética es el resultado del producto vectorial de la magnitud de la carga por su velocidad y la intensidad del campo magnético (conocido como la ley y de fuerza de Lorenz):""")
 
- st.latex(r'''
+st.latex(r'''
     \overrightarrow{F} = q * \overrightarrow{v}x\overrightarrow{B} 
  ''')
 
