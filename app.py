@@ -99,14 +99,22 @@ st. write ("""De esta ley está el principio básico detrás
 de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.""")
-st.write(""".""")
+
+  col1, col2, col3 = st.columns([1,6,1])
+
+    with col1:
+        st.write("")
+
+    with col2:
+        ("![FLUJO MAGNÉTICO](http://mrtremblaycambridge.weebly.com/uploads/9/7/8/8/9788395/656047_orig.gif)")
+
+    with col3:
+        st.write("")
 
 st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
 En definitiva, no solo cargas e imanes pueden influir en los campos,
 también pueden hacerlo entre ellos.""")
-
-
 
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
