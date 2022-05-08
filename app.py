@@ -105,7 +105,7 @@ col1, col2, col3 = st.columns([1,6,1])
         st.write("")
 
     with col2:
-        st.markdown("![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhive.blog%2Fhive-196387%2F%40lorenzor%2Finduccion-electromagnetica-el-transformador&psig=AOvVaw13HcRXYf7CqL4GMU9izN2Z&ust=1652056997986000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPi08YbWzvcCFQAAAAAdAAAAABAD)")
+        st.markdown("![Alt Text](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
 
     with col3:
         st.write("")
