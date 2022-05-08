@@ -68,6 +68,12 @@ st.title('Ley de Gauss para el magnetismo')
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{B} = 0 
  ''')
+
+st. write(""" Esta ley se asemeja a la ley de gauss para campo eléctrico, sin embargo hay que comprender la región en el espacio donde hay interacción de fuerzas magnéticas, vectorial y no causa ningún efecto sobre cargas en reposo.
+Una fuerza magnética es el resultado  del producto vectorial de la magnitud de la carga por su velocidad y la intensidad del campo magnético (conocido como la le y de fuerza de Lorenz):
+
+Formula 
+
 st. write (""" Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen.
 No hay “cargas magnéticas”.""")
 
