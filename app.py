@@ -102,14 +102,14 @@ cerrándose.""")
 
 col1, col2, col3 = st.columns([1,6,1])
 
-    with col1:
-        st.write("")
+ with col1:
+       st.write("")
 
-    with col2:
-        ("![FLUJO MAGNÉTICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
+ with col2:
+       ("![FLUJO MAGNÉTICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
 
-    with col3:
-        st.write("")
+ with col3:
+       st.write("")
 
 st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
