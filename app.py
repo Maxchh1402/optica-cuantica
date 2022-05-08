@@ -65,8 +65,7 @@ col1, col2, col3 = st.columns([6,6,6])
 with col2:
     st.image ("Imagen9.png")
 
-
-st.title('Ley de Gauss para el magnetismo')
+st.markdown("<h1 style='color:green;'>Ley de Gauss para el magnetismo</h1>", unsafe_allow_html=True)
 
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{B} = 0 
@@ -94,7 +93,8 @@ Por ejemplo, si intentas partir un imán en dos queriendo separarlo en dos monop
 el campo se cierra en la zona que has cortado, devolviendote dos imanes con dos polos cada
 uno. 
 En nuestro mundo los monopolos son imposibles (si existieran las ecuaciones de Maxwell podrian ser expresadas en una sola ecuación.""")
-st.title('Ley de Faraday y Lenz')
+
+st.markdown("<h1 style='color:green;'Ley de Faraday y Lenz", unsafe_allow_html=True)
 
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
@@ -116,7 +116,7 @@ En definitiva, no solo cargas e imanes pueden influir en los campos,
 también pueden hacerlo entre ellos.""")
 
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
-st.title("""La ley de Ampére""")
+st.markdown("<h1 style='color:green;'>La ley de Ampére</h1>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([6,6,6])
 with col2:
