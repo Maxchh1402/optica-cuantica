@@ -1,7 +1,5 @@
 import streamlit as st
 st.markdown("<h1 style='text-align: center; color:lightblue;'>Ecuaciones de Maxwell</h1>", unsafe_allow_html=True)
-st.button('click aqui')
-st.balloons()
 import pandas as pd
 st.title('Ley de Gauss')
 st.latex(r'''
@@ -119,16 +117,10 @@ también pueden hacerlo entre ellos.""")
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
 
+background = Image.open("Imagen13.png")
+col1, col2, col3 = st.columns([0.2, 5, 0.2])
+col2.image(background, width=1138)
 col1, col2, col3 = st.columns([1,6,1])
-
-with col1:
-    st.write("")
-    
-with col2:
-    ("![13](Imagen13.png)")
-    
-with col3:
-    st.write("")
 
 st. write ("""Un campo eléctrico
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
