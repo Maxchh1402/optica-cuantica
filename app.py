@@ -118,6 +118,7 @@ st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
 "Imagen13.png"
 col1, col2, col3 = st.columns([1,6,1])
+
 with col2:
     st.image("Imagen13.png")
 
