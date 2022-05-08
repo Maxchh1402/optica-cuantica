@@ -1,6 +1,7 @@
 import streamlit as st
 st.markdown("<h1 style='text-align: center; color:lightblue;'>Ecuaciones de Maxwell</h1>", unsafe_allow_html=True)
 import pandas as pd
+st.markdown("<h1 style='text-align: center; color:dark slate gray;'>Ley de Gauss</h1>", unsafe_allow_html=True)
 st.title('Ley de Gauss')
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = \frac{\rho}{\epsilon_0}   
