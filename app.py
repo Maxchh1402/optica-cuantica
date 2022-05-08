@@ -98,7 +98,7 @@ st.latex(r'''
 st. write ("""De esta ley está el principio básico detrás
 de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
-cerrándose.
+cerrándose.""")
 col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
@@ -109,7 +109,8 @@ col1, col2, col3 = st.columns([1,6,1])
 
     with col3:
         st.write("")
-Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
+
+st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
 En definitiva, no solo cargas e imanes pueden influir en los campos,
 también pueden hacerlo entre ellos.""")
