@@ -113,8 +113,8 @@ st.title("""La ley de Ampére""")
 
 col1, col2, col3 = st.columns([4,6,4])
 with col2:
-    use_columns_width(auto)
-    st.image("Imagen13.png")
+   
+    st.image use_columns_width(auto)("Imagen13.png")
 
 st. write ("""Un campo eléctrico
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
