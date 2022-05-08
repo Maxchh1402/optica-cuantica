@@ -116,11 +116,10 @@ también pueden hacerlo entre ellos.""")
 
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
-
-background = Image.open("Imagen13.png")
-col1, col2, col3 = st.columns([0.2, 5, 0.2])
-col2.image(background, width=1138)
+"Imagen13.png"
 col1, col2, col3 = st.columns([1,6,1])
+with col2:
+    st.image("Imagen13.png")
 
 st. write ("""Un campo eléctrico
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
