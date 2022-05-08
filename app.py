@@ -100,7 +100,7 @@ de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.""")
 
- col1, col2, col3 = st.columns([1,6,1])
+col1, col2, col3 = st.columns([1,6,1])
 
     with col1:
         st.write("")
