@@ -138,7 +138,7 @@ circular interna va a ser distinto al
 campo magnético que se genera en esta
 línea circular externa (posible calcular con la ecuación anterior).""") 
 
-st. write("""La sección transversal del conductor es circular pero puede tener cualquier otra forma irregular""".)
+st. write("""La sección transversal del conductor es circular pero puede tener cualquier otra forma irregular.""")
 st.image("Imagen16.png")
 
 
