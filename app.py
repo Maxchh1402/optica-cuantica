@@ -11,7 +11,7 @@ que cargas del mismo signo repelen y de distinto atraen.
 Captura que el campo eléctrico decae con la distancia y lo hace
 de una manera muy precisa: con el cuadrado de la distancia.""")
 
-st.caption('¿Para que sirve?')
+st.subheader('¿Para que sirve?')
 st. write ("""La ley de gauss tiene su máxima utilidad para calcular el campo eléctrico en situaciones donde
 la distribución de carga tiene simetría esférica, cilíndrica o está distribuida uniformemente en un plano o en una placa infinita.""")
 st.image(["images.png","SUPERFICIE CILIDRICA.png"]) 
