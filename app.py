@@ -70,13 +70,16 @@ st.latex(r'''
  ''')
 
 st. write(""" Esta ley se asemeja a la ley de gauss para campo eléctrico, sin embargo hay que comprender la región en el espacio donde hay interacción de fuerzas magnéticas, vectorial y no causa ningún efecto sobre cargas en reposo.
-Una fuerza magnética es el resultado  del producto vectorial de la magnitud de la carga por su velocidad y la intensidad del campo magnético (conocido como la le y de fuerza de Lorenz):
+Una fuerza magnética es el resultado del producto vectorial de la magnitud de la carga por su velocidad y la intensidad del campo magnético (conocido como la ley y de fuerza de Lorenz):""")
 
-Formula 
+ st.latex(r'''
+    \overrightarrow{F} = q * \overrightarrow{v}x\overrightarrow{B} 
+ ''')
 
-st. write (""" Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen.
-No hay “cargas magnéticas”.""")
+st.write ("""Flujo magnético. - A diferencia del eléctrico se define como el número de líneas de campo magnético que atraviesan en el espacio (medido en teslas por metro cuadrado).""")
 
+st.image("Imagen11.png")
+st. write ("""Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen. No hay cargas magnéticas.""")
 
 st. write (""" Eso no quiere decir que no haya objetos que puedan crear campos magnéticos (eso
 lo hacen los imanes).
