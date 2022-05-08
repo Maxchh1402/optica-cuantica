@@ -100,13 +100,16 @@ de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.""")
 
-st . markdown (
-     f'<img src="data:image/gif;base64, { ("![FLUJO MAGNÉTICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
- } " alt="cat gif">' ,
-     unsafe_allow_html = True ,
-)
-       
+col1, col2, col3 = st.columns([1,6,1])
 
+    with col1:
+        st.write("")
+
+    with col2:
+        ("![doble rendija](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
+        
+    with col3:
+        st.write("")
 
 st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
