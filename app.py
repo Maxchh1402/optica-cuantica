@@ -28,9 +28,10 @@ st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley 
 st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_{neta}}{\epsilon_0} ''')
 
 st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctrico;""") 
-
-st.markdown("![Alt Text](http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif)")
-
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.markdown("![Alt Text](http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif)")
+    
 st. write ("""
 Imaginemos una superficie plana como la de la imagen, esta
 superficie tiene un área superficial S imaginemos que esta superficie es
@@ -41,15 +42,17 @@ el vector normal n
 superficie y forma un ángulo de 90
 grados con la superficie). Esto cuando 
 es uniforme y la superficie es plana.""") 
-
-st.image(["Imagen4.png","Imagen5.png"])
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image (["Imagen4.png","Imagen5.png"])
 
 st. write ("""El flujo eléctrico en una superficie general irregular la cual tiene partes curvas es atravesado por infinitas líneas de campo eléctrico, para calcular el flujo eléctrico en este caso tendríamos que dividir la superficie en un gran número de pequeños elementos de área superficial del ts y en este caso el flujo eléctrico sería
 una sumatoria la sumatoria de los productos de las áreas de estos pequeños
 elementos del ts por el campo eléctrico que atraviesa cada uno de esos elementos así el vector que va a tener como módulo el área superficial de ese elemento y ese vector va a ser normal a la superficie va a ser perpendicular y va a
 formar un ángulo con el campo eléctrico.""")
-
-st.image("Imagen7.png")
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen7.png")
 
 st.  write( """La ley de Gauss me indica que el flujo
 eléctrico que pasa a través de cada una
@@ -58,7 +61,9 @@ carga electrica neta que encierran esas
 superficies entre la constante de
 permeabilidad""")
 
-st.image("Imagen9.png")
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen9.png")
 
 
 st.title('Ley de Gauss para el magnetismo')
@@ -75,8 +80,10 @@ st.latex(r'''
  ''')
 
 st.write ("""Flujo magnético. - A diferencia del eléctrico se define como el número de líneas de campo magnético que atraviesan en el espacio (medido en teslas por metro cuadrado).""")
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen11.png")
 
-st.image("Imagen11.png")
 st. write ("""Esta se fundamenta en que las fuentes y sumideros del campo magnético no existen. No hay cargas magnéticas.""")
 
 st. write (""" Eso no quiere decir que no haya objetos que puedan crear campos magnéticos (eso
@@ -127,7 +134,9 @@ st.write("""Nos permite calcular los campos
 magnéticos generados en los alrededores
 de distribuciones de corriente que
 pueden ser uniformes o variables.""")
-st.image("Imagen14.png")
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen14.png")
 
 st.write ("""**Corriente circular**""")
 
@@ -142,8 +151,9 @@ campo magnético que se genera en esta
 línea circular externa (posible calcular con la ecuación anterior).""") 
 
 st. write("""La sección transversal del conductor es circular pero puede tener cualquier otra forma irregular.""")
-st.image("Imagen16.png")
-
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen16.png")
 
 st. write ("""Basta con hacer pasar una corriente eléctrica por una bobina con la forma apropiada para
  tener un campo magnético, cuanto más intensa sea la corriente más intenso es el campo magnético.
@@ -151,7 +161,9 @@ Esto es un electroimán y la mayoría de los campos magnéticos del mundo se gen
 ellos, incluido el que nos protege del viento solar.""")
 
 st.write("""Momentos en que se aplica la Ley de Ampére:""")
-st.image("Imagen15.png")
+col1, col2, col3 = st.columns([6,6,6])
+with col2:
+    st.image ("Imagen15.png")
 
 
 
