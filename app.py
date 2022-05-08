@@ -99,16 +99,7 @@ st. write ("""De esta ley está el principio básico detrás
 de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.""")
-col1, col2, col3 = st.columns([1,6,1])
-
-    with col1:
-        st.write("")
-
-    with col2:
-        st.markdown("![Alt Text](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
-
-    with col3:
-        st.write("")
+st.write(""".""")
 
 st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
@@ -129,11 +120,37 @@ el campo magnético (cerrándose, como tiene que ser).
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = \mu_0 \overrightarrow{J} +\mu_0 \epsilon_0 \frac{\partial \overrightarrow{E}}{\partial t}   
  ''')
+st.write("""Nos permite calcular los campos
+magnéticos generados en los alrededores
+de distribuciones de corriente que
+pueden ser uniformes o variables.""")
+st.image("Imagen14.png")
+
+st.write ("""**Corriente circular**""")
+
+st.write("""Imaginemos un conductor de sección transversal
+circular que envia corriente con lo que se va a generar
+alrededor de este una línea circular de campo magnético,  
+muchas líneas que se van a generar fuera del conductor e
+internamente también se van a generar líneas de campo magnético en el campo
+magnético que se genera en esta línea
+circular interna va a ser distinto al
+campo magnético que se genera en esta
+línea circular externa (posible calcular con la ecuación anterior).""") 
+
+st.write("""La sección
+transversal del conductor es circular
+pero puede tener cualquier otra forma irregular""".)
+st.image("Imagen16.png")
+
 
 st. write ("""Basta con hacer pasar una corriente eléctrica por una bobina con la forma apropiada para
  tener un campo magnético, cuanto más intensa sea la corriente más intenso es el campo magnético.
 Esto es un electroimán y la mayoría de los campos magnéticos del mundo se generan con
 ellos, incluido el que nos protege del viento solar.""")
+
+st.write("""Momentos en que se aplica la Ley de Ampére:""")
+st.image("Imagen15.png")
 
 
 
