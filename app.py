@@ -120,6 +120,7 @@ también pueden hacerlo entre ellos.""")
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
 
+st.image("Imagen13.png")
 st. write ("""Un campo eléctrico
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
 el campo magnético (cerrándose, como tiene que ser).
