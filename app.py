@@ -138,7 +138,7 @@ col1, col2, col3 = st.columns([6,6,6])
 with col2:
     st.image ("Imagen14.png")
 
-st.write ("""**Corriente circular**""")
+st.subheader ("""**Corriente circular**""")
 
 st.write("""Imaginemos un conductor de sección transversal
 circular que envia corriente con lo que se va a generar
