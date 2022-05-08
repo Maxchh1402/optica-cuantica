@@ -28,7 +28,7 @@ st. write ("""Para calcular el campo eléctrico y su magnitud se utiliza la ley 
 st.latex(r'''\oint_s\overrightarrow{E} * d\overrightarrow{s} = \frac{Q_{neta}}{\epsilon_0} ''')
 
 st. write ("""Va de la mano a este tema para comprender qué es el flujo eléctrico;""") 
-col1, col2, col3 = st.columns([6,6,6])
+col1, col2, col3 = st.columns([4,6,6])
 with col2:
     st.markdown("![Alt Text](http://3.bp.blogspot.com/-5ryI19Mmm78/USH2VKEzgLI/AAAAAAAACrQ/9OnqCH85ZNE/s400/gauss1.gif)")
     
