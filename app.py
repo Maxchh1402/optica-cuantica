@@ -123,8 +123,10 @@ col1, col2, col3 = st.columns([1,6,1])
 
 with col1:
     st.write("")
+    
 with col2:
-    ("![13](Imagen13.png)")        
+    ("![13](Imagen13.png)")
+    
 with col3:
     st.write("")
 
