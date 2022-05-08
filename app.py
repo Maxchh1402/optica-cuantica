@@ -106,7 +106,7 @@ cerrándose.""")
         st.write("")
 
     with col2:
-        ("![FLUJO MAGNÉTICO](http://mrtremblaycambridge.weebly.com/uploads/9/7/8/8/9788395/656047_orig.gif)")
+        ("![FLUJO MAGNÉTICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
 
     with col3:
         st.write("")
