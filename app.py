@@ -98,7 +98,7 @@ de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.""")
 
-col1, col2, col3 = st.columns([1,6,1])
+col1, col2, col3 = st.columns([2,6,2])
 with col2:
     ("![FLUJO MAGNETICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
 
