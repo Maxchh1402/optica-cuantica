@@ -99,15 +99,9 @@ un campo magnético cambia en el tiempo esto activa el campo eléctrico de una m
 cerrándose.""")
 
 col1, col2, col3 = st.columns([1,6,1])
-
-with col1:
-    st.write("")
-
 with col2:
     ("![FLUJO MAGNETICO](https://images.hive.blog/DQmQNxXF7hx7oztpu9CRZvqt7bF18G2EBZfKnYJfjQnVEPX/Electromagnetic_induction_-_solenoid_to_loop_-_animation%20(1).gif)")
-        
-with col3:
-    st.write("")
+
 
 st. write ("""Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
@@ -116,9 +110,8 @@ también pueden hacerlo entre ellos.""")
 
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
-"Imagen13.png"
-col1, col2, col3 = st.columns([1,6,1])
 
+col1, col2, col3 = st.columns([1,6,1])
 with col2:
     st.image("Imagen13.png")
 
