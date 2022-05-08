@@ -99,6 +99,16 @@ st. write ("""De esta ley está el principio básico detrás
 de casi todas las centrales eléctricas del planeta, nos dice que si
 un campo magnético cambia en el tiempo esto activa el campo eléctrico de una manera precisa:
 cerrándose.
+col1, col2, col3 = st.columns([1,6,1])
+
+    with col1:
+        st.write("")
+
+    with col2:
+        st.markdown("![Alt Text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhive.blog%2Fhive-196387%2F%40lorenzor%2Finduccion-electromagnetica-el-transformador&psig=AOvVaw13HcRXYf7CqL4GMU9izN2Z&ust=1652056997986000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPi08YbWzvcCFQAAAAAdAAAAABAD)")
+
+    with col3:
+        st.write("")
 Concretamente si el campo magnético aumenta, el eléctrico se orienta en el sentido de
 las agujas del reloj, si decrece se orienta al contrario.
 En definitiva, no solo cargas e imanes pueden influir en los campos,
@@ -108,8 +118,8 @@ también pueden hacerlo entre ellos.""")
 
 st. write ("""Eso es lo que encapsula la cuarta ecuación:""")
 st.title("""La ley de Ampére""")
-st. write ("""
-Un campo eléctrico
+
+st. write ("""Un campo eléctrico
 cambiando en el tiempo o cargas moviéndose, es decir una corriente eléctrica, activan
 el campo magnético (cerrándose, como tiene que ser).
 """)
