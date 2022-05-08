@@ -93,9 +93,7 @@ Por ejemplo, si intentas partir un imán en dos queriendo separarlo en dos monop
 el campo se cierra en la zona que has cortado, devolviendote dos imanes con dos polos cada
 uno. 
 En nuestro mundo los monopolos son imposibles (si existieran las ecuaciones de Maxwell podrian ser expresadas en una sola ecuación.""")
-
-st.markdown("<h1 style='color:green;'>Ley de Faraday y Lenz<', unsafe_allow_html=True)
-
+st.markdown("<h1 style='color:green;'>Ley de Faraday y Lenz</h1>", unsafe_allow_html=True)
 st.latex(r'''
     \overrightarrow{\nabla}* \overrightarrow{E} = -\frac{\partial \overrightarrow{B}}{\partial t}   
  ''')
